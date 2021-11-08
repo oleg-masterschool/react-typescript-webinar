@@ -1,0 +1,29 @@
+{
+    "creatures": [
+        {
+            "id": 100,
+            "title": "Angry Rocket",
+            "image": "/assets/angry rocket.jpeg"
+        },
+        {
+            "id": 101,
+            "title": "Chinese red panda",
+            "image": "/assets/chinese panda.webp"
+        },
+        {
+            "id": 102,
+            "title": "Red panda",
+            "image": "/assets/panda closeup.webp"
+        },
+        {
+            "id": 103,
+            "title": "Panda on a tree",
+            "image": "/assets/panda on a tree.webp"
+        },
+        {
+            "id": 104,
+            "title": "Rocket",
+            "image": "/assets/rocket.jpeg"
+        }
+    ]
+}

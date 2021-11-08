@@ -1,0 +1,24 @@
+.creatures-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.creature-card{
+    cursor: pointer;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.creature-card p {
+    text-align: center;
+}
+
+.creature-card img {
+    max-width: 300px;
+    height: 400px;
+    object-fit: cover;
+}

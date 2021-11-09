@@ -5,21 +5,18 @@ import { Link, Route, Switch } from "react-router-dom";
 import { Home } from './components/Home';
 import { List } from "./components/List";
 import { Creature } from './components/Creature';
+import {ICreature} from "./types/ICreature";
 
 function fetchStudents() {
   return Promise.resolve({ success: true, data: creatures });
 }
 
-interface ICreature {
-    title: string
-    id: number
-    image: string
-}
 function App() {
   const [creatures, setCreatures] = useState<ICreature | any[]>([]);
+  // const [creatures, setCreatures] = useState([]);
 
   useEffect(() => {
-    fetchStudents().then(res => setCreatures(res.data));
+      fetchStudents().then(res => setCreatures(res.data));
   }, []);
 
   return (
